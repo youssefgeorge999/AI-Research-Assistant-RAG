@@ -1,0 +1,29 @@
+﻿.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.env
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Local data
+data/raw/
+data/processed/
+data/embeddings/
+
+# Vector databases
+*.faiss
+*.index
+chroma/
+vectorstore/
+
+# OS
+.DS_Store
+Thumbs.db
